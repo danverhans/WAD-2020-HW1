@@ -1,41 +1,44 @@
 * {
     font-family: 'Open Sans', sans-serif;
 }
+
 body {
     margin: 0;
     padding: 0;
     background-color: #1e6eb3;
 }
-
-
-h2 {
-    padding-right: 40px;
+h4 + p {
+    font-weight: 700;
 }
-h5 {
+img ~ h2{
+    padding-right: 40px;}
+
+#forgotPassword {
     margin-top: 5px;
 }
-
 input {
     padding: 8px;
     margin: 5px;
     border-width: 1px;
     border-radius: 3px;
 }
-button {
+div button {
     background: rgb(36, 63, 216);
     color: white;
     padding: 8px 16px 8px 16px;
     margin: 5px;
     border-radius: 5px;
     font-weight: bolder;
-
 }
-
 img {
     width: 50px;
     float: left;
 }
-
+img:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
+}
 .container {
   display: flex;
   justify-content: center;
@@ -43,7 +46,7 @@ img {
   min-height: 100vh;
 
 }
-.box {
+.container > div {
     background: white;
     height: 380px;
     width: 320px;
