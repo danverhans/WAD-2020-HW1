@@ -23,6 +23,9 @@ nav div{
 nav div img {
     height: 100%;
 }
+#profilepic{
+    float: right;
+}
 
 nav input {
     box-sizing: border-box;
