@@ -45,7 +45,7 @@ nav input {
     font-size: 24px; /* Set a font size */
     cursor: pointer; /* Mouse pointer on hover */
     border-radius: 5px;
-    width : 10%;
+    width : 60px;
     margin: 3%;
   }
 nav button{
