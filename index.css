@@ -26,6 +26,8 @@ nav div img {
 }
 #profilepic{
     float: right;
+border-radius:50px;
+
 }
 
 nav input {
@@ -102,6 +104,7 @@ nav button{
     float: left;
     height: 50px;
     width: 50px;
+border-radius: 50px;
 }
 
 .container > div>div h1{
