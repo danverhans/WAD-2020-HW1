@@ -8,11 +8,14 @@ body {
     background-color: #1e6eb3;
 }
 nav {
-    
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
 }
 
 nav div{
@@ -26,8 +29,7 @@ nav div img {
 }
 #profilepic{
     float: right;
-border-radius:50px;
-
+    border-radius:50px;
 }
 
 nav input {
