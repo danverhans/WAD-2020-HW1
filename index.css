@@ -71,9 +71,6 @@ nav button{
     padding-bottom: 2%;
     margin-left: 10%;
     margin-right: 10%;
-    border-radius: 1px;
-    position: relative;
-    text-align: center;
 }
 
 .container > div{
@@ -87,7 +84,7 @@ nav button{
     margin-top: 3%;
     margin-left: 20%;
     margin-right: 20%;
-    border-radius: 1px;
+    border-radius: 1%;
     position: relative;
     text-align: center;
 }
@@ -106,7 +103,7 @@ nav button{
     float: left;
     height: 50px;
     width: 50px;
-border-radius: 50px;
+    border-radius: 50px;
 }
 
 .container > div>div h1{
